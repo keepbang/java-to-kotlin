@@ -2,7 +2,7 @@ package com.keepbang.lec04
 
 import java.util.*
 
-class KotlinMoney(private val amount: Long) : Comparable<KotlinMoney> {
+class KotlinMoney(val amount: Long) : Comparable<KotlinMoney> {
     fun plus(other: KotlinMoney): KotlinMoney {
         return KotlinMoney(this.amount + other.amount)
     }
