@@ -1,6 +1,6 @@
 package com.keepbang.lec05
 
-import com.keepbang.lec04.KotlinMoney
+import com.keepbang.obj.KotlinMoney
 
 /**
  * 1. if 문
@@ -32,6 +32,7 @@ fun getPassOrFail(score: Int): String {
     }
 }
 
+// 표현식(Expression)으로 사용 가능
 fun getGrade(score: Int): String {
     return if (score >= 90) {
         return "A"
