@@ -7,4 +7,6 @@ abstract class Animal(
 ) {
     abstract fun move()
     abstract fun sound()
+
+
 }
