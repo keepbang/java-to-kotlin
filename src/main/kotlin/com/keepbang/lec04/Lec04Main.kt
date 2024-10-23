@@ -28,6 +28,7 @@ fun main() {
 
     println(m1 === m2) // 주소가 같음
     println(m1 === m3) // 주소가 다름
+    println(m1 == m3) // true
     // 논리연산자의 경우에도 자바와 동일하다.
 
     // 코틀린에만 존재하는 특이한 연산자
@@ -41,6 +42,8 @@ fun main() {
      * a[i] = b
      * - a의 특정 index i에 b를 넣는다.
      */
+    var str: String = "ABC"
+    str[1]
 
     // 연산자 오버로딩 : 객체마다 연산자를 직접 구현할 수 있다.
     println(m1 + m2) // 해당 메소드로 이동됨

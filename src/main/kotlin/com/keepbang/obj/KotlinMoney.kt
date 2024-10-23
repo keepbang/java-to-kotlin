@@ -3,7 +3,7 @@ package com.keepbang.obj
 import java.util.*
 
 class KotlinMoney(val amount: Long) : Comparable<KotlinMoney> {
-    fun plus(other: KotlinMoney): KotlinMoney {
+    operator fun plus(other: KotlinMoney): KotlinMoney {
         return KotlinMoney(this.amount + other.amount)
     }
 

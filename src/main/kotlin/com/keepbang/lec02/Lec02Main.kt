@@ -10,6 +10,8 @@ fun main() {
     // elvis(엘비스)연산자를 사용하면 null일 경우 기본값을 출력 할 수 있다.
     println(str?.length ?: 1)
     println(str2?.length ?: 1)
+//    startsWithA1(null)
+    println(startsWithA2(null))
 }
 
 // 기본적으로 코틀린 함수의 매개변수와 반환타입은 null이 들어갈 수 없다.
@@ -23,13 +25,13 @@ fun startsWithNotNull(str: String?): Boolean {
 }
 
 
-// nul이 들어올 경우 매개변수 타입에 '?'가 붙어야한다.
+// null이 들어올 경우 매개변수 타입에 '?'가 붙어야한다.
 fun startsWithA1(str: String?): Boolean { // null이 들어갈수 없는 반환 타입
 //    if (str == null) {
-//        throw IllegalArgumentException("nll이 들어왔습니다")
+//        throw IllegalArgumentException("null이 들어왔습니다")
 //    }
 //    return str.startsWith("A")
-    return str?.startsWith(str) ?: throw IllegalArgumentException("nll이 들어왔습니다")
+    return str?.startsWith("A") ?: throw IllegalArgumentException("null이 들어왔습니다")
 }
 
 // null이 반환될 수 있다면 반환 타입에도 '?'가 있어야한다.

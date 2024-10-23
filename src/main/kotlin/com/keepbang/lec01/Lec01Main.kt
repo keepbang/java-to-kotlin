@@ -3,7 +3,7 @@ package com.keepbang.lec01
 import com.keepbang.obj.Person
 
 /**
- * @see com.lannstark.lec01.Lec01Main convert kotlin
+ * 코틀린에서의 변수
  */
 fun main() {
     // 변수 선언은 var, val를 통해 선언 가능
