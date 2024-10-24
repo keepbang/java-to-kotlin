@@ -19,10 +19,11 @@
 |       9 | **[코틀린의 클래스](src/main/kotlin/com/keepbang/lec09/lec09.md)**                      |
 |      10 | **[상속(abstract, interface, open)](src/main/kotlin/com/keepbang/lec10/lec10.md)** |
 |      11 | **[접근 제어자](src/main/kotlin/com/keepbang/lec11/lec11.md)**                        |
-|      12 |                                                                                  |
-|      13 |                                                                                  |
-|      14 |                                                                                  |
-|      15 |                                                                                  |
-|      16 |                                                                                  |
-|      17 |                                                                                  |
+|      12 | **[object 키워드](src/main/kotlin/com/keepbang/lec11/lec11.md)**                    |
+|      13 | **[중첩 클래스](src/main/kotlin/com/keepbang/lec11/lec11.md)**                        |
+|      14 | **[다양한 클래스를 다루는 방법](src/main/kotlin/com/keepbang/lec11/lec11.md)**               |
+|      15 | **[배열과 컬렉션](src/main/kotlin/com/keepbang/lec11/lec11.md)**                       |
+|      17 | **[다양한 함수를 다루는 방법](src/main/kotlin/com/keepbang/lec11/lec11.md)**                |
+|      18 | **[람다](src/main/kotlin/com/keepbang/lec11/lec11.md)**                            |
+|      19 | **[컬렉션을 함수형으로 다루는 방법](src/main/kotlin/com/keepbang/lec11/lec11.md)**             |
 
