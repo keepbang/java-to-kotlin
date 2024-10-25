@@ -27,7 +27,7 @@ fun main() {
     number5 = null
 
     //---------------------------------------
-    var person = Person("keepbang")
+    var person = Person("keepbang", 100)
     /**
      * new 키워드를 사용하지 않고 객체 생성해야함
      */
