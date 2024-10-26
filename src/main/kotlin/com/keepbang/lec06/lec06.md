@@ -43,5 +43,8 @@
 - `step` 함수로 증가 값을 지정하거나, `downTo`로 감소할 수 있다.
 - `step`은 양수만 가능하다.
 
-## continue, break
-- 기존 자바와 동일하지만 라벨명@ ~ @라벨명을 사용하여 탈출지점을 지정할 수 있다.
+## continue, break의 Label
+- 기존 자바와 동일하지만 `label@` ~ `@label`을 사용하여 탈출지점을 지정할 수 있다.
+- forEach 함수에서는 continue나 break를 사용할 수 없는데 꼭 사양해야 한다면 run으로 한번 감싸거나 `return@run`, `return@forEach`를 사용해야 한다.
+- break, continue를 사용할 때에는 가급적 for문을 사용하는게 좋다.
+- label도 코드 흐름에 복잡도를 높이기 때문에 가급적 사용하지 않는게 좋다.,
