@@ -26,4 +26,6 @@
 |      16 | **[다양한 함수를 다루는 방법](src/main/kotlin/com/keepbang/lec16/lec16.md)**                |
 |      17 | **[람다](src/main/kotlin/com/keepbang/lec17/lec17.md)**                            |
 |      18 | **[컬렉션을 함수형으로 다루는 방법](src/main/kotlin/com/keepbang/lec18/lec18.md)**             |
+|      19 | **[코틀린의 여러가지 문법이나 개념](src/main/kotlin/com/keepbang/lec19/lec19.md)**             |
+|      20 | **[코틀린의 scope function](src/main/kotlin/com/keepbang/lec20/lec20.md)**             |
 

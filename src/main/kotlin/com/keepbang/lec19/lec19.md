@@ -30,7 +30,9 @@
     println(age) // 100
     ```
 - `Data Class`는 기본적으로 `componentN`이란 함수가 자동으로 생성된다.
+
   ![img.png](img.png)
+
 - `componentN`은 `N`번째 프로퍼티를 가져오는 함수다.
 - Data Class가 아닌 경우에는 `componentN` 함수를 직접 만들어서 사용하면 된다.
   - 이럴때에는 앞에 `operator` 키워드를 붙여야한다.
